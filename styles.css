@@ -1,12 +1,71 @@
+*{
+  font-family:'Times New Roman', Times, serif;
+}
+
 body {
   text-align: center;
+  padding: 30px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border: 10px double black;
+  background-color: bisque;
 }
 
 ul { 
   display: inline-block;
   text-align: left; 
 }
+
 ol { 
   display: inline-block;
   text-align: left; 
+}
+
+.recipes{
+  padding: 30px;
+  border: 10px double teal;
+}
+
+.title,
+.title2,
+.link,
+li{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.title{
+  font-size: 50px;
+  padding: 8px;
+  background-color: black;
+  color: white;
+  border: 10px double gray;
+  width: fit-content;
+  margin: 16px auto;
+}
+
+.title2{
+  padding: 8px;
+  width: fit-content;
+  margin: 16px auto;
+  background-color: black;
+  color: white;
+  border: 10px double gray;
+}
+
+.link{
+  display: block;
+  font-size: 15px;
+  padding: 8px;
+  width: fit-content;
+  margin: 16px auto;
+  background-color: rgb(94, 172, 218);
+  color: white;
+  border: 10px double black;
+}
+
+.imgs{
+  margin: 16px;
+  padding: 8px;
+  border: 10px double black;
 }
